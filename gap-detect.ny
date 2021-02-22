@@ -83,7 +83,7 @@ s-in))
    (if (and (> v thres) (> sil-c sil-length))
  	  ;Mark the user-set number of seconds BEFORE this point to avoid clipping the start
  	  ;of the material.
-    (add-label (- (/ n s1-srate) labelbeforedur) "S")
+    (add-label (- (/ n s1-srate) labelbeforedur) (format nil "~a" (/ sil-c s1-srate)))
    )
    ;If this sample is NOT silent, then reset the silence counter
    (if (> v thres)
