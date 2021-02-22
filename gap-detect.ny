@@ -2,7 +2,7 @@
 ;version 1
 ;type analyze
 ;categories "http://lv2plug.in/ns/lv2core#AnalyserPlugin"
-;name "Finder Short Gaps..."
+;name "Measure Gaps..."
 ;action "Finding Gaps..."
 ;info "Silence Finder by Alex S. Brown, PMP\nModified by Steve Daulton for short gap detection.\nReleased under terms of the GNU General Public License version 2\n"
 ;control sil-lev "Silence Threhold" real "" -48 -72 -12
